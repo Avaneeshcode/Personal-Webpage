@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaneesh Kesavan</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1c1c1c, #2e2e2e); /* Dark Gradient */
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        h1, h2, h3, p {
+            margin: 0 0 15px 0;
+            padding: 0;
+        }
+        a {
+            color: #00bcd4; /* Light Blue */
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        a:hover {
+            color: #ff4081; /* Pink */
+            transform: scale(1.05);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 0;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #007acc, #00bcd4); /* Blue Gradient */
+            color: #ffffff;
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 2px solid #ffffff; /* White Border */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #111111;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 20px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #00bcd4; /* Light Blue */
+            transform: scale(1.1);
+        }
+
+        /* Sections */
+        section {
+            background-color: #2e2e2e;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+        section h2 {
+            color: #00bcd4; /* Light Blue */
+            border-bottom: 3px solid #f6ff00; /* Pink */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111111;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* Neumorphism effect */
+        .neumorphic {
+            background: #2e2e2e;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3), -5px -5px 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Avaneesh Kesavan</h1>
+        <p>Software Engineering Undergraduate</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/avaneesh-kesavan/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Avaneeshcode" target="_blank">GitHub</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="home" class="neumorphic">
+            <h2>Welcome!</h2>
+            <p>Hi, I'm Avaneesh Kesavan, a passionate Software Engineering undergraduate at Informatics Institute of Technology. Explore my website to learn more about my projects, skills, and how to connect with me!</p>
+        </section>
+
+        <section id="about" class="neumorphic">
+            <h2>About Me</h2>
+            <p>Enthusiastic Software Engineering undergraduate with a passion for web technologies and software development. With a strong foundation in creating and optimizing digital solutions, I aim to make a meaningful impact in the tech industry by enhancing user experiences and simplifying web applications. I am always eager to learn, innovate, and explore new methods to solve complex problems.</p>
+            <p>I enjoy connecting with like-minded individuals who share a passion for technology and creativity. Whether it's collaborating on projects, sharing knowledge, or finding new ways to make a difference, I'm excited about opportunities to grow and contribute. Let's connect and work together to shape the future of the digital world!</p>
+        </section>
+
+        <section id="projects" class="neumorphic">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li>Project 1: Description</li>
+                <li>Project 2: Description</li>
+                <li>Project 3: Description</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="neumorphic">
+            <h2>Skills</h2>
+            <p>Here are some of my key technical skills:</p>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="neumorphic">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please email me at: <a href="mailto:kesavan.avaneesh@gmail.com">kesavan.avaneesh@gmail.com</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Avaneesh Kesavan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
